@@ -10,7 +10,7 @@ b:8+Release
 #Play/pause
 #"mpc toggle"
 # pause/play mpd (with mpc) and show output in desktop notification
-"/home/jordan/bin/mpc_toggle"
+"mpc toggle"
 XF86AudioPlay
 
 #Next

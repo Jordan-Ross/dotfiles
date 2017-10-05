@@ -3,7 +3,7 @@
 #export PATH=$PATH:~/bin
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/jordan/.oh-my-zsh
+export ZSH=/home/jordan/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -85,6 +85,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='ls --color=auto'
+
+
 
 
 

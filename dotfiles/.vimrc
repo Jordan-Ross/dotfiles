@@ -18,6 +18,7 @@ set softtabstop=4
 " Stay on indent level for new lines
 set autoindent
 
-" Don't delay after typing 'O' 
-set noesckeys
+" Shorter delay after typing 'O' 
+set timeoutlen=100
+
 

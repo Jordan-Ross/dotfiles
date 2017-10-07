@@ -1,6 +1,6 @@
 ! Font source
 ! http://int10h.org/
-URxvt.font: xft:PxPlus AmstradPC1512\\-2y:size=8:pixelsize=18,\
+URxvt.font: xft:PxPlus AmstradPC1512\\-2y:size=8:pixelsize=18, \
             xft:Kochi Gothic:antialias=true, \
             xft:Baekmuk Gulim
 

@@ -1,14 +1,20 @@
 ! Font source
 ! http://int10h.org/
+!Add \ to the end of the first two lines when uncommenting.
 URxvt.font: xft:PxPlus AmstradPC1512\\-2y:size=8:pixelsize=18, \
             xft:Kochi Gothic:antialias=true, \
             xft:Baekmuk Gulim
 
-URxvt.letterSpace: 2
+URxvt.letterSpace: 1
 
 !URxvt.font: xft:dejavu sans mono:size=14, 
 !            xft:Kochi Gothic:antialias=true, 
 !            xft:Baekmuk Gulim
+
+!URxvt.font: -lucy-tewi-medium-*-normal--12-*-75-75-*-0-iso10646-1
+!            xft:Kochi Gothic:antialias=true, 
+!            xft:Baekmuk Gulim
+
 URxvt.scrollBar: false
 URxvt.internalBoarder: 0
 

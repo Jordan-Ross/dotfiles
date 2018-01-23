@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
  export PATH=~/bin:$HOME/bin:/usr/local/bin:$PATH
 #export PATH=$PATH:~/bin
+export EDITOR="/usr/bin/vim"
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/jordan/.oh-my-zsh
@@ -8,7 +9,7 @@ export ZSH=/home/jordan/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="kolo-custom"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

@@ -21,7 +21,10 @@ set autoindent
 " Shorter delay after typing 'O' 
 set timeoutlen=100
 
-
+" Tabs (the other kind)
 map <F7> :tabp<CR>
 map <F8> :tabn<CR>
+
+set tabpagemax=100
+
 

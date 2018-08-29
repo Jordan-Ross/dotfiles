@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
- export PATH=~/bin:$HOME/bin:/usr/local/bin:$PATH
+ export PATH=~/.gem/ruby/2.5.0/bin:~/bin:$HOME/bin:/usr/local/bin:$PATH
 #export PATH=$PATH:~/bin
 export EDITOR="/usr/bin/vim"
 
@@ -90,4 +90,5 @@ alias ls='ls --color=auto'
 
 
 
+source /home/jordan/.cargo/env
 

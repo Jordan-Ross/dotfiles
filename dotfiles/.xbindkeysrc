@@ -1,10 +1,10 @@
 # bind top left button to ctrl+t
-"xte 'keydown Control_L' 'key t' 'keyup Control_L'"
-b:9
+#"xte 'keydown Control_L' 'key t' 'keyup Control_L'"
+#b:9
 
 # bind botom left button to middle mouse
-"xte 'mouseclick 2'"
-b:8+Release
+#"xte 'mouseclick 2'"
+#b:8+Release
 
 # bind media keys
 #Play/pause

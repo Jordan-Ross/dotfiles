@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
- export PATH=~/.gem/ruby/2.5.0/bin:~/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=~/.gem/ruby/2.5.0/bin:~/bin:$HOME/bin:/usr/local/bin:/opt/cuda/bin:$PATH
 #export PATH=$PATH:~/bin
 export EDITOR="/usr/bin/vim"
 
@@ -91,4 +91,13 @@ alias ls='ls --color=auto'
 
 
 source /home/jordan/.cargo/env
+
+export LC_ALL=en_US.UTF-8
+
+
+
+# NVVM cuda shit
+export NUMBAPRO_NVVM=/opt/cuda/nvvm/lib64/libnvvm.so
+export NUMBAPRO_LIBDEVICE=/opt/cuda/nvvm/libdevice
+
 

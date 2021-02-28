@@ -31,4 +31,5 @@ map <F8> :tabn<CR>
 
 set tabpagemax=100
 
+set cc=120
 

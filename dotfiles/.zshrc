@@ -1,10 +1,11 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=~/.gem/ruby/2.5.0/bin:~/bin:$HOME/bin:/usr/local/bin:/opt/cuda/bin:$PATH
+export PATH=$HOME/.local/bin:~/.gem/ruby/2.5.0/bin:~/bin:$HOME/bin:/usr/local/bin:$PATH
 #export PATH=$PATH:~/bin
 export EDITOR="/usr/bin/vim"
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/jordan/.oh-my-zsh
+#export ZSH=/home/jordan/.oh-my-zsh
+export ZSH=/usr/share/oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -85,19 +86,19 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls='ls --color=auto'
-
-
-
-
-source /home/jordan/.cargo/env
+#alias ls='ls --color=auto'
+alias ls=exa
 
 export LC_ALL=en_US.UTF-8
 
 
 
-# NVVM cuda shit
-export NUMBAPRO_NVVM=/opt/cuda/nvvm/lib64/libnvvm.so
-export NUMBAPRO_LIBDEVICE=/opt/cuda/nvvm/libdevice
+export PYTHONPATH="/home/jordan/src/tadpol"
 
 
+export TADPOL_DEVELOP=true
+
+alias gitroot='cd $(git rev-parse --show-toplevel)'
+
+alias shc='ssh -i ~/.ssh/tweet-collection-ec2-key.pem ec2-user@ec2-3-137-167-0.us-east-2.compute.amazonaws.com'
+source /usr/share/nvm/init-nvm.sh
